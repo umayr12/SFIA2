@@ -6,6 +6,11 @@ This README contains information related to building and running the Basketball 
 ### Description and Architecture of Solution
 
 
+<img width="639" alt="Capture" src="https://user-images.githubusercontent.com/84901993/126084852-f0e2cddb-e25c-41f3-b3c2-b3e65f7f8b32.PNG">
+
+
+
+
 
 
 
