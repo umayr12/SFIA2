@@ -9,9 +9,19 @@
 # import os
 # from flask_sqlalchemy import SQLAlchemy
 
-# def test_homepage():
+# def test_teams():
 #     http = urllib3.PoolManager()
 #     r = http.request('GET', 'http://teams_api:5001/get_teams')
+#     assert 200 == r.status
+
+# def test_stadium():
+#     http = urllib3.PoolManager()
+#     r = http.request('GET', 'http://teams_api:5002/get_stadium')
+#     assert 200 == r.status
+
+# def test_prob():
+#     http = urllib3.PoolManager()
+#     r = http.request('POST', 'http://teams_api:5003/get_chance')
 #     assert 200 == r.status
 
 # class TestBase(TestCase):
