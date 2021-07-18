@@ -5,18 +5,20 @@
     <body>
         <h1>Basketball Games</h1>
         <p>
-            {{ team1 }} vs {{ team2 }}
+            {{ team1 }} VS {{ team2 }}
             <br>
             {{ stadium }}
             <br>
             {{ j }}
         </p>
         <h2>
-            The last five games and their chances
+            The Last Four Games And Their Chances
         </h2>
         <p>
-            {% for items in all %} -->
-            The {{items.team_One}} vs {{items.team_Two}} at the following Stadium {{items.stadium_One}}
+            {% for items in all %}
+            The {{ items.team_One }} VS The {{ items.team_Two }}<br>@ {{ items.stadium_One }}<br>With The Visitors Having A {{ items.chance_One }} Percent Chance Of Losing.
+            <br>
+            <br>
             <br>
             {% endfor %}
         </p>

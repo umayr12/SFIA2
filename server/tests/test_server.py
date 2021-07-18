@@ -12,7 +12,8 @@ class TestBase(TestCase):
 #     def test_home(self):
 #         with requests_mock.Mocker() as m:
 #             m.get('http://teams_api:5001/get_teams', team1='LA Lakers', team2='Toronto Raptors')
-#             # m.post('http://stadium_api:5002/get_stadium', stadium='Staples Center')
+#             m.get('http://stadium_api:5002/get_stadium', stadium='Staples Center')
+              
 #             response = self.client.get(url_for('home'))
 #             self.assertEqual(response.status_code, 200)
 #             self.assertIn(b'LA Lakers vs Toronto Raptors', response.data)

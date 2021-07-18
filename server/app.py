@@ -3,6 +3,7 @@ import requests
 from flask_sqlalchemy import SQLAlchemy
 from os import getenv
 import json
+from sqlalchemy import desc
 
 app = Flask(__name__)
 
@@ -56,14 +57,14 @@ def home():
     
 
 
-    last_five_games = Basketball.query.all()
+    last_five_games = Basketball.query.order_by(desc(Basketball.id)).limit(4).all()
     
     db.session.add(
     Basketball(
         team_One = team1,
-        team_Two = team2,
+        team_Two = team2, 
         stadium_One = stadium,
-        chance_One = chance
+        chance_One = chance,
         )
     )
     db.session.commit()
