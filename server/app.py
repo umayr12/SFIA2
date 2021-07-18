@@ -7,12 +7,10 @@ from sqlalchemy import desc
 
 app = Flask(__name__)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///databasedb'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:basketball@34.142.65.116:3306/plate'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
-
 
 class Basketball(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -39,10 +37,8 @@ def home():
     chance = requests.post('http://chance_api:5003/get_chance',json=data).text
 
     chance = json.loads(chance)
-   # prob = chance
  
     chance = chance["Probability"]
-    #prob = int(prob1)
     
     if chance == 80:
         j = 'LA Lakers have the home advantage with a 80 Percent chance of winning'
@@ -69,15 +65,6 @@ def home():
     )
     db.session.commit()
     return render_template('index.html', team1=team1, team2=team2, stadium=stadium, chance=chance, j=j, all=last_five_games)
-
-
-
-
-
-
-# db.session.commit()
-# db.create_all()
-#return render_template('index.html', team1=team1, team2=team2, stadium=stadium, chance=prob)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

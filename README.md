@@ -1,3 +1,97 @@
+# BASKETBALL PROJECT DEMONSTARTING USE OF DOCKER
+
+This README contains information related to building and running the Basketball project to demostarte the use of Docker.
+
+
+### Description and Architecture of Solution
+
+
+
+
+
+
+
+
+
+
+### Requirements
+To develop and run the application locally you must have the following installed:
+
+| Component | Description |
+|---|---|
+| Git | A revision control system. |
+| Docker | Docker is an open platform for developing, shipping, and running applications. |
+| Python3 | Programming language. |
+| Docker Compose | Tool for defining and running multi-container Docker applications |
+| MySQL | An open source RDBMS. |
+| FLASK | lightweight WSGI web application framework |
+
+***
+
+### Getting started
+First, download the code from GitHub. This can be done using the desktop git tool, an IDE which supports git or by downloading the code as a zip file which you can then extract.
+
+Next, install the dev tools and dependencies....
+
+### Installation of Development Tools and Dependencies
+#### Install Git for Linux:
+Install official git release:
+https://git-scm.com/download
+
+#### Install Docker
+
+
+#### Install Python 3:
+
+
+#### Install Docker Compose:
+
+### Installation of the MySQL database
+``
+
+### Running the application
+
+
+
+
+
+
+
+
+
+##### ENJOY!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Animal Noises Task
 
 Your task is to make a basic microservice app that gets **animals** and their related **noises** from a separate API. Every time the user refreshes, the page should display the **animal** and **noise** in the format: `The pig goes oink`, `The cow goes moo`, `The horse goes neigh`.

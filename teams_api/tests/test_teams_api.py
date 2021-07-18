@@ -11,8 +11,8 @@
 # class TestAnimalApi(TestBase):
 #     def test_get_animal(self):
 #         for num in range(20):
-#             response = self.client.get(url_for('get_animal'))
-#             self.assertIn(response.data.decode("utf-8"),["cow", "pig", "horse"])
+#             response = self.client.get(url_for('get_teams'))
+#             self.assertIn(response.data.decode("utf-8"),['LA Lakers', 'Toronto Raptors', 'Brooklyn Nets'])
     
 #     def test_get_noise(self):
 #         test_cases=[("cow","moo"), ("pig","oink"), ("horse", "neigh")]
