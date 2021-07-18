@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Basketball Games</title>
+    </head>
+    <body>
+        <h1>Basketball Games</h1>
+        <p>
+            {{ team1 }} vs {{ team2 }}
+            <br>
+            {{ stadium }}
+            <br>
+            {{ j }}
+        </p>
+        <h2>
+            The last five games and their chances
+        </h2>
+        <p>
+            {% for items in all %} -->
+            The {{items.team_One}} vs {{items.team_Two}} at the following Stadium {{items.stadium_One}}
+            <br>
+            {% endfor %}
+        </p>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+version: '3.8'
+services:
+  server:
+    container_name: basketball_server
+    image: hi/basketball_server
+    build: ./server
+    ports:
+    - published: 5000
+      target: 5000 
+      protocol: tcp
+        
+  teams_api:
+    container_name: teams_api
+    image: hi/teams_api
+    build: ./teams_api
+    ports:
+    - target: 5001
+      published: 5001
+      protocol: tcp
+
+  stadium_api:
+    container_name: stadium_api
+    image: hi/stadium_api
+    build: ./stadium_api
+    ports:
+    - target: 5002
+      published: 5002
+      protocol: tcp
+
+  chance_api:
+    container_name: chance_api
+    image: hi/chance_api
+    build: ./chance_api
+    ports:
+    - target: 5003
+      published: 5003
+      protocol: tcp
+
+  nginx:
+    image: nginx:latest
+    ports:
+    - target: 80
+      published: 80
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: ./nginx/nginx.conf
+      target: /etc/nginx/nginx.conf
+  
+        
