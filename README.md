@@ -7,7 +7,9 @@
     + [Requirements](https://github.com/umayr12/SFIA2#requirements)
 2. [Project Plan](https://github.com/umayr12/SFIA2#project-plan)
 3. [Building of the app](https://github.com/umayr12/SFIA2#Building-of-the-app)
-4. 
+    + [Errors](https://github.com/umayr12/SFIA2#Errors)
+    + [During Build](https://github.com/umayr12/SFIA2#During-Build)
+5. 
 
 
 ## Introduction
@@ -32,9 +34,15 @@ My plan for the application was to create a Basketball Games Generator.
 + Service 4 would be used to retrieve the output from Service 2 and Service 3, and then use that information to return a % chance of one team winning over the other
 
 ## Building of the app
+### Errors
+During the building of the app I experienced a severe error that affected my whole project. My VM had become unaccessable and due to bad project management, I had not committed any of my code, which meant I had to start again from the beginning.
 
-
+Error message:
 ![image](https://user-images.githubusercontent.com/84901993/126126398-eb7e2d06-2de7-4155-acf4-dfdb7527a280.png)
+
+Due to time constraints relating to the error, I had no choice but to change my endgoal and aim to build my app so that it was deployable via Docker-Compose.
+
+### During Build
 
 ![image](https://user-images.githubusercontent.com/84901993/126129689-2013d206-c200-4a36-97ac-c8e37704b3b5.png)
 
