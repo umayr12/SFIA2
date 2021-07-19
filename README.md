@@ -6,7 +6,8 @@
 1. [Introduction](https://github.com/umayr12/SFIA2#Introduction)
     + [Requirements](https://github.com/umayr12/SFIA2#requirements)
 2. [Project Plan](https://github.com/umayr12/SFIA2#project-plan)
-3. 
+3. [Building of the app](https://github.com/umayr12/SFIA2#Building-of-the-app)
+4. 
 
 
 ## Introduction
@@ -30,7 +31,8 @@ My plan for the application was to create a Basketball Games Generator.
 + Service 3 would be used to randomly select a Stadium from a list
 + Service 4 would be used to retrieve the output from Service 2 and Service 3, and then use that information to return a % chance of one team winning over the other
 
-![image](https://user-images.githubusercontent.com/84901993/126126281-c2c616ca-d6f1-4a8f-88f4-0d552bb56787.png)
+## Building of the app
+
 
 ![image](https://user-images.githubusercontent.com/84901993/126126398-eb7e2d06-2de7-4155-acf4-dfdb7527a280.png)
 
