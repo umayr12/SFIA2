@@ -23,7 +23,10 @@ The requirements of the project are as follows:
 ## Project Plan
 
 ![image](https://user-images.githubusercontent.com/84901993/126125505-be170ffa-3beb-4f33-9a00-f0f4906e7ed8.png)
-My Plan for this project was to have a CI Pipeline like the one displayed above. I intended to have my application running inside a Docker-Swarm,with nginx as a reverse proxy, built by Ansible. I then intended for this to be run via Jenkins, with Jenkins having a Webhook connection to Github so that any time code is pushed to Github, Jenkins will run the job with the new code.
+My Plan for this project was to have a CI Pipeline like the one displayed above. I intended to have my application running inside a Docker-Swarm,with nginx as a reverse proxy, built by Ansible. I then intended for this to be run via Jenkins, with Jenkins having a Webhook connection to Github so that any time code is pushed to Github, Jenkins will run the job with the new code implemented.
+
+
+j
 
 ![image](https://user-images.githubusercontent.com/84901993/126126281-c2c616ca-d6f1-4a8f-88f4-0d552bb56787.png)
 
