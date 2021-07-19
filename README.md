@@ -1,4 +1,4 @@
-# Rapper Name Generator: Discover your Rapper alter ego!
+# Basketball Game Generator
 
 
 ## Table of Contents
