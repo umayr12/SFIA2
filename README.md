@@ -9,6 +9,7 @@
 3. [Building of the app](https://github.com/umayr12/SFIA2#Building-of-the-app)
     + [Errors](https://github.com/umayr12/SFIA2#Errors)
     + [During Build](https://github.com/umayr12/SFIA2#During-Build)
+    + [End of Build](https://github.com/umayr12/SFIA2End-of-Build)
 5. 
 
 
@@ -45,11 +46,14 @@ Due to time constraints relating to the error, I had no choice but to change my 
 ### During Build
 
 ![image](https://user-images.githubusercontent.com/84901993/126129689-2013d206-c200-4a36-97ac-c8e37704b3b5.png)
+As seen above, my plan was to use Docker-Compose to build an app that utilised multiple containers with a different service in each. I also ensured my database was connected to the server, so that the server could give and recieve data to the database.With the server connected to all other services, I then planned to connect this server to NGINX, so that the user is interacting with the whole application via NGINX.
 
 ![image](https://user-images.githubusercontent.com/84901993/126130003-66de1615-ff5f-446b-9d1c-757e7f3c9b41.png)
 
-
+### End of Build
 ![image](https://user-images.githubusercontent.com/84901993/126126622-2bc51906-e5c6-4b7f-8d53-7e2fd7618676.png)
+At the end of the build my pipeline ended up looking like this, which is what I had planned for with the time constraints that I was under. 
+
 ![image](https://user-images.githubusercontent.com/84901993/126126665-ff3ef016-62b9-400b-ba0f-94d826e2ece0.png)
 
 https://trello.com/b/mOHZJECA/project-2-board
