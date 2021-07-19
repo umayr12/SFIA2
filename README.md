@@ -10,7 +10,11 @@
     + [Errors](https://github.com/umayr12/SFIA2#Errors)
     + [During Build](https://github.com/umayr12/SFIA2#During-Build)
     + [End of Build](https://github.com/umayr12/SFIA2End-of-Build)
-5. 
+4. [Risk Assessment](https://github.com/umayr12/SFIA2#Risk-Assessment)
+    + [Initial](https://github.com/umayr12/SFIA2#Initial)
+    + [Final](https://github.com/umayr12/SFIA2#Final)
+5. [Technologies Used](https://github.com/umayr12/SFIA2#Technologies-Used)
+6. [External Links](https://github.com/umayr12/SFIA2#External-Links)
 
 
 ## Introduction
@@ -48,12 +52,38 @@ Due to time constraints relating to the error, I had no choice but to change my 
 ![image](https://user-images.githubusercontent.com/84901993/126129689-2013d206-c200-4a36-97ac-c8e37704b3b5.png)
 As seen above, my plan was to use Docker-Compose to build an app that utilised multiple containers with a different service in each. I also ensured my database was connected to the server, so that the server could give and recieve data to the database.With the server connected to all other services, I then planned to connect this server to NGINX, so that the user is interacting with the whole application via NGINX.
 
-![image](https://user-images.githubusercontent.com/84901993/126130003-66de1615-ff5f-446b-9d1c-757e7f3c9b41.png)
-
 ### End of Build
+![image](https://user-images.githubusercontent.com/84901993/126130003-66de1615-ff5f-446b-9d1c-757e7f3c9b41.png)
+At the end of the build my pipeline ended up looking like this, which is what I had planned for with the time constraints that I was under due to issues that I had experienced. 
+
+## Risk Assessment
+### Initial
 ![image](https://user-images.githubusercontent.com/84901993/126126622-2bc51906-e5c6-4b7f-8d53-7e2fd7618676.png)
-At the end of the build my pipeline ended up looking like this, which is what I had planned for with the time constraints that I was under. 
+Above is a small section of my Initial Risk Assessment
 
+### Final
 ![image](https://user-images.githubusercontent.com/84901993/126126665-ff3ef016-62b9-400b-ba0f-94d826e2ece0.png)
+Above is a small section of my Final(and updated) Risk Assessment
 
-https://trello.com/b/mOHZJECA/project-2-board
+My whole Risk Assessment including initial and final can be found in my Github Repository for this project.
+
+## Technologies Used
+The technologies I used to build this application were
+* **GitHub:** Version Control System*
+* **Google Cloud Services:** Live Environment + SQL Database Host*
+* **Visual Studio Code:** IDE for frontend and backend development. Used the following languages:
+    - **Python 3:** Logic and Functionality*
+    - **HTML:** Front-end GUI design*
+    - **CSS:** Design of front-end GUI*
+    - **Flask:** Connects front-end and back-end*
+    - **Jinja2:** Pass variables between Python and HTML*
+    - **MySQL:** Allows for access of SQL Databases, as well as query-based functions*
+* **Trello:** Kanban board and Project tracking*
+* **Docker:** Containerisation
+* **Dockerhub:** Version Control System for Docker Images and Containers
+* **NGINX:** Load Balancing
+
+## External Links
+
+https://trello.com/b/mOHZJECA/project-2-board = Trello
+https://hub.docker.com/u/00000000007860000000000 = Dockerhub
